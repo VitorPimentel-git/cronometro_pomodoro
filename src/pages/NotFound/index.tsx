@@ -1,0 +1,16 @@
+import { Container } from "../../components/Container";
+import { MainTemplates } from "../../templates/MainTemplates";
+
+export function NotFound() {
+    <MainTemplates>
+      <Container>
+        <h1>Página não encontrada</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, at 
+            et reiciendis eos ipsum earum? Dolorum incidunt, sit veniam repellat 
+            praesentium doloremque vero facilis pariatur non ut minus vitae
+            ratione!
+        </p>
+        </Container>
+    </MainTemplates>
+}
